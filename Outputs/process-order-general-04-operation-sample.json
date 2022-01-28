@@ -30,9 +30,9 @@
 			"WorkCenterTypeCode": "A",
 			"WorkCenter": "PACKING",
 			"OperationControlProfile": "YBP4",
-			"OpErlstSchedldExecStrtDte": "/Date(1504224000000)/",
+			"OpErlstSchedldExecStrtDte": "2017-09-01T09:00:00+09:00",
 			"OpErlstSchedldExecStrtTme": "PT06H00M00S",
-			"OpErlstSchedldExecEndDte": "/Date(1504224000000)/",
+			"OpErlstSchedldExecEndDte": "2017-09-01T09:00:00+09:00",
 			"OpErlstSchedldExecEndTme": "PT06H11M38S",
 			"OpActualExecutionStartDate": "",
 			"OpActualExecutionStartTime": "PT00H00M00S",
@@ -72,9 +72,9 @@
 			"WorkCenterTypeCode": "A",
 			"WorkCenter": "PACKING",
 			"OperationControlProfile": "YBP4",
-			"OpErlstSchedldExecStrtDte": "/Date(1504224000000)/",
+			"OpErlstSchedldExecStrtDte": "2017-09-01T09:00:00+09:00",
 			"OpErlstSchedldExecStrtTme": "PT06H00M00S",
-			"OpErlstSchedldExecEndDte": "/Date(1504224000000)/",
+			"OpErlstSchedldExecEndDte": "2017-09-01T09:00:00+09:00",
 			"OpErlstSchedldExecEndTme": "PT06H11M38S",
 			"OpActualExecutionStartDate": "",
 			"OpActualExecutionStartTime": "PT00H00M00S",
@@ -88,5 +88,5 @@
 			"LastChangeDateTime": "20200723125734"
 		}
 	],
-	"time": "2022-01-19T16:40:42.086051+09:00"
+	"time": "2022-01-28T16:17:29+09:00"
 }

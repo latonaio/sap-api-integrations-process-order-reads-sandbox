@@ -17,7 +17,7 @@
 			"ManufacturingOrderOperation": "0020",
 			"ProductionPlant": "1710",
 			"OrderInternalBillOfOperations": "3508",
-			"MatlCompRequirementDate": "/Date(1504224000000)/",
+			"MatlCompRequirementDate": "2017-09-01T09:00:00+09:00",
 			"MatlCompRequirementTime": "PT06H00M00S",
 			"ReservationIsFinallyIssued": false,
 			"IsBulkMaterialComponent": false,
@@ -71,7 +71,7 @@
 			"ManufacturingOrderOperation": "0020",
 			"ProductionPlant": "1710",
 			"OrderInternalBillOfOperations": "3508",
-			"MatlCompRequirementDate": "/Date(1504224000000)/",
+			"MatlCompRequirementDate": "2017-09-01T09:00:00+09:00",
 			"MatlCompRequirementTime": "PT06H00M00S",
 			"ReservationIsFinallyIssued": false,
 			"IsBulkMaterialComponent": false,
@@ -112,5 +112,5 @@
 			"WithdrawnQuantityAmount": "0.00"
 		}
 	],
-	"time": "2022-01-19T16:40:38.735811+09:00"
+	"time": "2022-01-28T16:17:26+09:00"
 }

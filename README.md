@@ -95,9 +95,9 @@ func (c *SAPAPICaller) AsyncGetProcessOrder(manufacturingOrder string, accepter 
 ```
 
 ## Output  
-本マイクロサービスでは、[golang-logging-library](https://github.com/latonaio/golang-logging-library) により、以下のようなデータがJSON形式で出力されます。  
+本マイクロサービスでは、[golang-logging-library-for-sap](https://github.com/latonaio/golang-logging-library-for-sap) により、以下のようなデータがJSON形式で出力されます。  
 以下の sample.json の例は、SAP プロセス指図 の 一般データ が取得された結果の JSON の例です。  
-以下の項目のうち、"ManufacturingOrder" ～ "to_ProcessOrderStatus" は、/SAP_API_Output_Formatter/type.go 内 の Type General {} による出力結果です。"cursor" ～ "time"は、golang-logging-library による 定型フォーマットの出力結果です。  
+以下の項目のうち、"ManufacturingOrder" ～ "to_ProcessOrderStatus" は、/SAP_API_Output_Formatter/type.go 内 の Type General {} による出力結果です。"cursor" ～ "time"は、golang-logging-library-for-sap による 定型フォーマットの出力結果です。  
 
 ```
 {
@@ -130,7 +130,7 @@ func (c *SAPAPICaller) AsyncGetProcessOrder(manufacturingOrder string, accepter 
 			"OrderHasGeneratedOperations": "",
 			"OrderIsToBeHandledInBatches": "X",
 			"MaterialAvailyIsNotChecked": "X",
-			"MfgOrderCreationDate": "/Date(1504051200000)/",
+			"MfgOrderCreationDate": "2017-08-30T09:00:00+09:00",
 			"MfgOrderCreationTime": "PT09H05M40S",
 			"LastChangeDateTime": "20200723125734",
 			"Material": "FG29",
@@ -161,15 +161,15 @@ func (c *SAPAPICaller) AsyncGetProcessOrder(manufacturingOrder string, accepter 
 			"ActualCostsCostingVariant": "PYG2",
 			"PlannedCostsCostingVariant": "PYG1",
 			"FunctionalArea": "",
-			"MfgOrderPlannedStartDate": "/Date(1504051200000)/",
+			"MfgOrderPlannedStartDate": "2017-08-30T09:00:00+09:00",
 			"MfgOrderPlannedStartTime": "PT00H00M00S",
-			"MfgOrderPlannedEndDate": "/Date(1504656000000)/",
+			"MfgOrderPlannedEndDate": "2017-09-06T09:00:00+09:00",
 			"MfgOrderPlannedEndTime": "PT00H00M00S",
-			"MfgOrderScheduledStartDate": "/Date(1504224000000)/",
+			"MfgOrderScheduledStartDate": "2017-09-01T09:00:00+09:00",
 			"MfgOrderScheduledStartTime": "PT06H00M00S",
-			"MfgOrderScheduledEndDate": "/Date(1504224000000)/",
+			"MfgOrderScheduledEndDate": "2017-09-01T09:00:00+09:00",
 			"MfgOrderScheduledEndTime": "PT06H11M38S",
-			"MfgOrderActualReleaseDate": "/Date(1504051200000)/",
+			"MfgOrderActualReleaseDate": "2017-08-30T09:00:00+09:00",
 			"ProductionUnit": "BT",
 			"TotalQuantity": "969",
 			"MfgOrderPlannedScrapQty": "0",
@@ -183,7 +183,6 @@ func (c *SAPAPICaller) AsyncGetProcessOrder(manufacturingOrder string, accepter 
 			"to_ProcessOrderStatus": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_PROCESS_ORDER_2_SRV/A_ProcessOrder_2('1003463')/to_ProcessOrderStatus"
 		}
 	],
-	"time": "2022-01-19T16:40:37.593109+09:00"
+	"time": "2022-01-28T16:17:24+09:00"
 }
-
 ```

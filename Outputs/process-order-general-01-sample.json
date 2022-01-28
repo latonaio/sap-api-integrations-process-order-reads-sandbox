@@ -28,7 +28,7 @@
 			"OrderHasGeneratedOperations": "",
 			"OrderIsToBeHandledInBatches": "X",
 			"MaterialAvailyIsNotChecked": "X",
-			"MfgOrderCreationDate": "/Date(1504051200000)/",
+			"MfgOrderCreationDate": "2017-08-30T09:00:00+09:00",
 			"MfgOrderCreationTime": "PT09H05M40S",
 			"LastChangeDateTime": "20200723125734",
 			"Material": "FG29",
@@ -59,15 +59,15 @@
 			"ActualCostsCostingVariant": "PYG2",
 			"PlannedCostsCostingVariant": "PYG1",
 			"FunctionalArea": "",
-			"MfgOrderPlannedStartDate": "/Date(1504051200000)/",
+			"MfgOrderPlannedStartDate": "2017-08-30T09:00:00+09:00",
 			"MfgOrderPlannedStartTime": "PT00H00M00S",
-			"MfgOrderPlannedEndDate": "/Date(1504656000000)/",
+			"MfgOrderPlannedEndDate": "2017-09-06T09:00:00+09:00",
 			"MfgOrderPlannedEndTime": "PT00H00M00S",
-			"MfgOrderScheduledStartDate": "/Date(1504224000000)/",
+			"MfgOrderScheduledStartDate": "2017-09-01T09:00:00+09:00",
 			"MfgOrderScheduledStartTime": "PT06H00M00S",
-			"MfgOrderScheduledEndDate": "/Date(1504224000000)/",
+			"MfgOrderScheduledEndDate": "2017-09-01T09:00:00+09:00",
 			"MfgOrderScheduledEndTime": "PT06H11M38S",
-			"MfgOrderActualReleaseDate": "/Date(1504051200000)/",
+			"MfgOrderActualReleaseDate": "2017-08-30T09:00:00+09:00",
 			"ProductionUnit": "BT",
 			"TotalQuantity": "969",
 			"MfgOrderPlannedScrapQty": "0",
@@ -81,5 +81,5 @@
 			"to_ProcessOrderStatus": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_PROCESS_ORDER_2_SRV/A_ProcessOrder_2('1003463')/to_ProcessOrderStatus"
 		}
 	],
-	"time": "2022-01-19T16:40:37.593109+09:00"
+	"time": "2022-01-28T16:17:24+09:00"
 }
