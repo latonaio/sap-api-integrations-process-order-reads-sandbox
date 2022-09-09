@@ -1,5 +1,5 @@
 # sap-api-integrations-process-order-reads  
-sap-api-integrations-process-order-reads は、外部システム(特にエッジコンピューティング環境)をSAPと統合することを目的に、SAP API で製造指図データを取得するマイクロサービスです。    
+sap-api-integrations-process-order-reads は、外部システム(特にエッジコンピューティング環境)をSAPと統合することを目的に、SAP API でプロセス指図データを取得するマイクロサービスです。    
 sap-api-integrations-process-order-reads には、サンプルのAPI Json フォーマットが含まれています。   
 sap-api-integrations-process-order-reads は、オンプレミス版である（＝クラウド版ではない）SAPS4HANA API の利用を前提としています。クラウド版APIを利用する場合は、ご注意ください。   
 https://api.sap.com/api/OP_API_PROCESS_ORDER_2_SRV_0001/overview   
